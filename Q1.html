@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table,th,td{
+            border: 2px solid blue;
+            box-shadow: 1px 1px 1px black, 0 0 25px, 0 0 5px darkblue;
+        }
+        h2 {
+            color: orchid;
+            text-shadow: 1px 1px 1px black, 0 0 25px, 0 0 5px darkblue;
+        }
+        #d1 {
+            margin-left: 350px;
+            color: blueviolet;
+        }
+        #d2 {
+            /* position: relative; */
+            margin-left: 200px;
+        }
+        #b2{
+            position:relative;
+            margin-left:350px;
+            color: blueviolet;
+        }
+        #d3 {
+            /* position: relative; */
+            margin-left: 200px;}
+        #b3{
+            position:relative;
+            margin-left:350px;
+            color: blueviolet;
+        }
+        #d4 {
+            /* position: relative; */
+            margin-left: 200px;
+        }
+        #b4{
+            position:relative;
+            margin-left:350px;
+            color: blueviolet;
+        }
+        #d5 {
+            /* position: relative; */
+            margin-left: 200px;}
+        #b5{
+            position:relative;
+            margin-left:350px;
+            color: blueviolet;
+        }
+        #d6 {
+            /* position: relative; */
+            margin-left: 200px;}
+        #b6{
+            position:relative;
+            margin-left:350px;
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+<U STYLE="COLOR:SEAGREEN">
+        <h1>LOGIC GATES</h1>
+    </U>
+    <ul>
+    <li><u style="color:orchid">
+        <h2>What is logic gate?</h2>
+    </u></li>
+    </ul>
+    <p><mark><b><u style="color:#ff0000">Ans:=</u></b>Logic gates are the basic building blocks of any digital system.
+            It is an electronic circuit having one or more than one input and only one output. The relationship between
+            the input and the output is based on a certain logic. Based on this, logic gates are named as AND gate, OR
+            gate, NOT gate etc.</mark></p>
+    <u style="color:orchid">
+        <h2>OR GATE:-</h2>
+    </u>
+    <div id="d1"><a href="OR.html" target="-main">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFFRimyI4vN3xPi1W7DLOV4c0keYigThiV7w&usqp=CAU" ></a>
+    </div>
+    <button id="d1">
+        ****Click On The Upper Image****
+    </button>
+    <U style="color:orchid">
+        <h2>AND GATE:-</h2>
+    </U>
+    <div id="d2"><a href="AND.html" target="-main"><img src="https://www.tutorialspoint.com/digital_circuits/images/and_gate.jpg"></a>
+    </div>
+    <button id="b2">
+        ****Click On The Upper Image****
+    </button>
+    <U style="color:orchid">
+        <h2>NOT GATE:-</h2>
+<div id="d3"><a href="Not.html" target="-main"><img src="https://circuitglobe.com/wp-content/uploads/2015/12/NOT-GATE-FIG-5-compressor.jpg"></a>
+</div>
+<button id="b3" >
+    ****Click On The Upper Image****
+    </button>
+    <U style="color:orchid">
+        <h2>NOR GATE:-</h2>
+<div id="d4"><a href="Not.html" target="-main"><img src="https://cdn1.byjus.com/wp-content/uploads/2020/06/exclusive-nor-gate.png" width="450px"></a>
+</div>
+<button id="b4" >
+    ****Click On The Upper Image****
+    </button>
+    <U style="color:orchid">
+        <h2>NAND GATE:-</h2>
+    <div id="d5"><a href="NAND.html" target="-main"><img src="https://spinningnumbers.org/i/logic13.svg" width="450px"></a>
+    </div>
+    <button id="b5" >
+        ****Click On The Upper Image****
+        </button>
+        <U style="color:orchid">
+            <h2>XOR GATE:-</h2>
+        <div id="d6"><a href="XOR.html" target="-main"><img src="https://spinningnumbers.org/i/logic13.svg" width="450px"></a>
+        </div>
+        <button id="b6" >
+            ****Click On The Upper Image****
+            </button>      
+</body>
+</html>
+
+
+-------OR Gate-------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border:2px solid blue;
+            box-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue;
+            width:250px;
+        }
+        h2{
+            color:orchid;
+            text-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue; 
+        }
+        #d1{
+            margin-left:250px;
+        }
+    </style>
+        
+</head>
+<body>
+    <U STYLE="COLOR:SEAGREEN"><h1 style="text-align:center">LOGIC GATES</h1></U>
+   <u style="color:orchid"></u>
+   <u style="color:#ff0000"></u>
+    <u style="color:orchid"><h2>OR GATE:-</h2></u>
+    <table>
+                <tr>
+                    <th style="text-align:center">A</th>
+                    <th style="text-align:center">B</th>
+                    <th style="text-align:center">A+B</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                </tr>
+        </table>
+        <p ><mark>The OR gate is a mostly used digital logic circuit. The output state of the OR gate will always be low when both of the inputs states is low. Simply, if any input value in the OR
+             gate is set to 1, then it will always return high-level output(1).The logic or Boolean expression for the OR gate is the logical addition of inputs denoted by plus sign(+) as
+            
+            A+B=Y
+            
+            The value of Y will be true when one of the inputs is set to true.</mark>
+            </p>
+            <P><h4 style="color:#ff0000">Types of Digital Logic AND Gate</h4>
+                Just like AND gate, the OR gate is also classified into three types based on the input it takes. These are the following types of OR gate:
+                
+                <h4 style="color:#ff0000">The 3-input OR gate</h4>
+                Just like AND gate, the OR gate can also have any number of individual inputs. The Boolean expression of the logical OR gate is defined as the binary operation plus(+). Like AND gate, OR gate can also be cascaded together to form any number of individual inputs. There are 23=8 possible combinations of inputs. The truth table and logic design are given below:</P>
+                <div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/or-gate-in-digital-electronics3.png"></div>
+                <h3>Truth Table</h3>
+        <table >
+        <tr>
+            <th style="text-align:center">A</th>
+            <th style="text-align:center">B</th>
+            <th style="text-align:center">C</th>
+            <th style="text-align:center">Y</th>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">1</td>
+        </tr>
+</table>
+<h4 style="color:#ff0000">The Multi-input OR Gate</h4>
+    <p>The n-input OR gate can also be formed. If there are n inputs, then (N/2)+1 OR gates will be used.<br>
+    
+    For example:<br>
+    
+    If we have 6 inputs A, B, C. D, E, F, then 4 OR gates are used in the logic design of the 6-input OR gate. <br>There is the following expression of the 6-input OR gate:<br>
+    
+    Y=(A+B)+(C+D)+(E+F)<br>
+    
+    In simple words, it is expressed as:<br>
+    
+    Y=A OR B OR C OR D OR E OR F
+    </p>
+    <div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/or-gate-in-digital-electronics5.png"></div>
+    <table style="width:550px">
+        <tr>
+            <th style="text-align:center">A</th>
+            <th style="text-align:center">B</th>
+            <th style="text-align:center">C</th>
+            <th style="text-align:center">D</th>
+            <th style="text-align:center">E</th>
+            <th style="text-align:center">F</th>
+            <th style="text-align:center">Y</th>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">1</td>
+        </tr>
+        <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+        </tr>
+                <tr>
+        <td style="text-align:center">.<br>
+            .<br>
+            .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>                       
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            </tr>
+            <tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+        </tr>
+</body>
+</html>
+-----AND------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border:2px solid blue;
+            box-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue;
+            width:250px;
+        }
+        td,th{color:rgb(84, 45, 122);
+    }
+        h2{
+            color:orchid;
+            text-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue; 
+        }
+        h1{
+            text-align: center;
+        }
+        #d1{
+            margin-left:250px;
+        }
+        </style>
+</head>
+<body>
+    
+    <U STYLE="COLOR:SEAGREEN"><h1>LOGIC GATES</h1></U>
+   <u style="color:orchid"></u>
+   <u style="color:#ff0000"></u>
+    <u style="color:orchid"><h2>AND GATE:-</h2></u>
+    <table>
+                <tr>
+                    <b><th style="text-align:center">A</th>
+                    <th style="text-align:center">B</th>
+                    <th style="text-align:center">A.B</th></b>
+                </tr>
+                <tr>
+                   <b><td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                    </b>
+                </tr>
+                <tr>
+                    <b><td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">0</td>
+                    </b>
+                </tr>
+                <tr>
+                <b>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                </b>
+                </tr>
+                <tr>
+                <b>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                </b>
+                </tr>
+        </table>
+        <p ><mark>The OR gate is a mostly used digital logic circuit. The output state of the OR gate will always be low when both of the inputs states is low. Simply, if any input value in the OR
+             gate is set to 1, then it will always return high-level output(1).The logic or Boolean expression for the OR gate is the logical addition of inputs denoted by plus sign(+) as
+            
+            A+B=Y
+            
+            The value of Y will be true when one of the inputs is set to true.</mark>
+            </p>
+            <p>
+                <h4 style="color:red">The 3-input AND Gate</h4>
+Unlike 2-input AND gate, the 3-input AND gate have three inputs. The Boolean expression of the logic AND gate is defined as the binary operation dot(.). The AND gate can be cascaded together to form any number of individual inputs. There are 23=8 possible combinations of inputs. <br>The truth table and logic design is given below:
+            </p>
+            <h3><b>Logic Design</b></h3>
+           <div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/and-gate-in-digital-electronics3.png"></div>
+           <h3>Truth Table</h3>
+        <table >
+        <tr>
+            <th style="text-align:center">A</th>
+            <th style="text-align:center">B</th>
+            <th style="text-align:center">C</th>
+            <th style="text-align:center">Y</th>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+</table>
+<h4 style="color:#ff0000">The Multi-input OR Gate</h4>
+    <p>In digital electronics, we can form n-input AND gate also. If there are n inputs, then (N/2)+1 AND gates will be used.
+
+        <b>For example:</b>
+        
+        If we have 6 inputs A, B, C. D, E, F, then 4 AND gates are used in the logic design of 6-input AND gate. There is the following expression of the 6-input AND gate:
+        
+        <b>Y=(A.B).(C.D).(E.F)</b>
+        
+        In simple words, it is expressed as:
+        
+        <b>Y=A AND B AND C AND D AND E AND F</b>
+        
+        .<br>
+    
+    For example:<br>
+    
+    If we have 6 inputs A, B, C. D, E, F, then 4 OR gates are used in the logic design of the 6-input OR gate. <br>There is the following expression of the 6-input OR gate:<br>
+    
+    <b>Y=(A+B)+(C+D)+(E+F)</b><br>
+    
+    In simple words, it is expressed as:<br>
+    
+    <b>Y=A OR B OR C OR D OR E OR F</b>
+    </p>
+    <h3>Logic Design</h3>
+    <div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/or-gate-in-digital-electronics5.png"></div>
+    <table style="width:550px">
+        <tr>
+            <th style="text-align:center">A</th>
+            <th style="text-align:center">B</th>
+            <th style="text-align:center">C</th>
+            <th style="text-align:center">D</th>
+            <th style="text-align:center">E</th>
+            <th style="text-align:center">F</th>
+            <th style="text-align:center">Y</th>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <th style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">0</th>
+            <td style="text-align:center">0</td>
+        </tr>
+        <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+        </tr>
+                <tr>
+        <td style="text-align:center">.<br>
+            .<br>
+            .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>                       
+                .<br></td>
+            <td style="text-align:center">.<br>
+                .<br>
+                .<br></td>
+            </tr>
+            <tr>
+        <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">0</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <th style="text-align:center">1</th>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">1</td>
+        </tr>
+
+</body>
+</html>
+------NOT------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table,th,td{
+        border:2px solid blue;
+        box-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue;
+        width:100px;
+    }
+        td,th{color:rgb(84, 45, 122);
+    }
+    h2{
+        color:orchid;
+        text-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue; 
+    }
+    h1{
+        text-align: center;
+    }
+    #d1{
+        margin-left:250px;
+    }
+    </style>
+</head>
+<body>
+    <U STYLE="COLOR:SEAGREEN"><h1>LOGIC GATES</h1></U>
+    <u style="color:orchid"></u>
+    <u style="color:#ff0000"></u>
+     <u style="color:orchid"><h2>NOT GATE:-</h2></u>
+     <table>
+                 <tr>
+                     <th style="align:center">A</th>
+                     <th style="align:center">A'</th>
+                 </tr>
+                 <tr>
+                     <td style="align:center">0</td>
+                     <td style="align:center">1</td>
+                 </tr>
+                 <tr>
+                     <td style="align:center">1</td>
+                     <td style="align:center">0</td>
+                 </tr>
+                 
+         </table>
+         <p ><mark>The NOT gate is the most basic logic gate of all other logic gates. NOT gate is also known as an inverter or an inverting Buffer. NOT gate only has one input and one output. When the input signal is "Low", the output signal is "High" and when the input signal is "High", the output is "Low". The Boolean expression for the NOT gate is as follows:<br>
+
+            <b>A=Z</b>
+            
+            When A is not true,then Y is true
+            
+            The standard NOT gate is given a symbol that is shaped like a triangle with a circle at the end, pointing to the right. This circle is known as an "invert bubble" and is used to represent the logical operation of the NOT function in the NOT, NAND and NOR symbols in their output.</mark>
+             </p>
+             <p>The complement value is generated by the NOT gate. The NOT gate is so-called because when the input signal is 0, the output signal will NOT be 0, Similarly, when the input signal is 1, the output signal will NOT be 1.<br>
+
+                In the NOT gate, the bubble denotes the single inversion of the output signal. But this bubble can also exist on the gate's input to indicate an active-less input. This reversal of the input signal is not limited only to the NOT gate, but can also be used on any digital circuit or gate, as shown with the operation of inversion, whether it is at the input or output terminals. The easiest way is to think of the bubble as an inverter.</p>
+                <h3 style="color:brown">Use of Active-low Input Bubble</h3>
+                <div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/note-gate-in-digital-electronics3.png"></div>
+                <h3 style="color:brown">Equivalent Gates</h3>
+<p>The NOT gate can also be formed with the help of the universal gates, i.e., NAND and NOR. For this, we have to connect both the inputs together to a common input signal. <br>The NOT gate representation of NAND and NOR gate is as follows:</p>
+
+<div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/note-gate-in-digital-electronics4.png"></div>
+            </body>
+</html>
+-------NAND GATE------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+    table,th,td{
+        border:2px solid blue;
+        box-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue;
+    }
+    td,th{color:rgb(84, 45, 122);
+}
+    h2{
+        color:orchid;
+        text-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue; 
+    }
+    h1{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    
+    
+    <U STYLE="COLOR:SEAGREEN"><h1>LOGIC GATES</h1></U>
+   <u style="color:orchid"></u>
+   <u style="color:#ff0000"></u>
+    <u style="color:orchid"><h2>AND GATE:-</h2></u>
+    <table>
+                <tr>
+                    <b><th>A</th>
+                    <th>B</th>
+                    <th>(A.B)'</th></b>
+                </tr>
+                <tr>
+                   <b><td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    </b>
+                </tr>
+                <tr>
+                    <b><td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    </b>
+                </tr>
+                <tr>
+                <b>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </b>
+                </tr>
+                <tr>
+                <b>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </b>
+                </tr>
+        </table>
+        <p ><mark>The NAND gate is a special type of logic gate in the digital logic circuit. The NAND gate is the universal gate. It means all the basic gates such as AND, OR, and NOT gate can be constructed using a NAND gate. The NAND gate is the combination of the NOT-AND gate. The output state of the NAND gate will be low only when all the inputs are high. Simply, this gate returns the complement result of the AND gate.
+
+            The logic or Boolean expression for the NAND gate is the complement of logical multiplication of inputs denoted by a full stop or a single dot as
+            
+            (A.B)'=Y
+            
+            The value of Y will be true when any one of the input is set to 0.</mark>
+            </p>
+</body>
+</html>
+--------XOR GATE-------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<STYLE>
+    table,th,td{
+        border:2px solid blue;
+        box-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue;
+        width:350px;
+    }
+    th{
+        width:150px;
+    }
+    td,th{color:rgb(84, 45, 122);
+}
+    h2{
+        color:orchid;
+        text-shadow:1px 1px 1px black, 0 0 25px , 0 0 5px darkblue; 
+    }
+    h1{
+        text-align: center;
+    }
+    img{
+        align:center;
+    }
+    #d1{
+        margin-left: 250px;
+    }
+    #d2{
+        margin-left: 250px;
+    }
+    </style>
+<body>
+    <U STYLE="COLOR:seagreen"><h1>LOGIC GATES</h1></U>
+   <u style="color:orchid"></u>
+   <u style="color:#ff0000"></u>
+    <u style="color:orchid"><h2>AND GATE:-</h2></u>
+    <table>
+                <tr>
+                    <b><td style="text-align:center">A</td>
+                    <td style="text-align:center">B</td>
+                    <td style="text-align:center">(A.B)'</td></b>
+                </tr>
+                <tr>
+                   <b><td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                    </b>
+                </tr>
+                <tr>
+                    <b><td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    </b>
+                </tr>
+                <tr>
+                <b>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                </b>
+                </tr>
+                <tr>
+                <b>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                </b>
+                </tr>
+        </table>
+        <p ><mark>The XOR gate stands for the Exclusive-OR gate. This gate is a special type of gate used in different types of computational circuits. Apart from the AND, OR, NOT, NAND, and NOR gate, there are two special gates, i.e., Ex-OR and Ex-NOR. These gates are not basic gates in their own and are constructed by combining with other logic gates. Their Boolean output function is significant enough to be considered as a complete logic gate. The XOR and XNOR gates are the hybrids gates.
+
+            The 2-input OR gate is also known as the Inclusive-OR gate because when both inputs A and B are set to 1, the output comes out 1(high). In the Ex-OR function, the logic output "1" is obtained only when either A="1" or B="1" but not both together at the same time. Simply, the output of the XOR gate is high(1) only when both the inputs are different from each other.
+            
+            The plus(+) sign within the circle is used as the Boolean expression of the XOR gate. So, the symbol of the XOR gate is ⨁. This Ex-OR symbol also defines the "direct sum of sub-objects" expression. These are the following types of Exclusive-OR gate:
+            
+            2-input Ex-OR gate
+            This is a simple form of the hybrid gate XOR. In this type of XOR gate, there are only two input values and an output value. There are 22=4 possible combinations of inputs. The output level is high when both inputs are set to a different logic level. The Boolean expression of 2-input XOR gate is as follows:
+        </mark></p><br>
+            <p>
+        <b>Y=(A⨁B)</b></br>
+        <b>Y=(A'B+AB')</b>
+            </p>
+            <p>
+                The 3-input XOR Gate
+                Unlike the 2-input XOR gate, the 3-input XOR gate has three inputs. There are 23=8 possible combinations of inputs. The Boolean expression of the logical Ex-OR gate is as follows:<br><br>
+                
+                <b>Y=A⨁B⨁C</b><br>
+                <b>Y=A(BC)'+A'BC'+(AB)'C+ABC</b>
+            </p>
+            <img src="https://static.javatpoint.com/tutorial/digital-electronics/images/xor-gate2.png">
+            <table>
+                <tr>
+                    <b><td style="text-align:center">A</td>
+                    <td style="text-align:center">B</td>
+                    <td style="text-align:center">c</td>
+                    <td style="text-align:center">Y</td></b>
+                </tr>
+                <tr>
+                   <b><td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                    </b>
+                </tr>
+                <tr>
+                    <b><td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    </b>
+                </tr>
+                <tr>
+                <b>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                </b>
+                </tr>
+                <tr>
+                <b>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">1</td>
+                    <td style="text-align:center">0</td>
+                    <td style="text-align:center">1</td>
+                </b>
+                </tr>
+        </table>
+            <p><h4 style="color:#ff0000">Ex-OR gate equivalent circuit</h4><br>
+                We can form the XOR or Ex-OR gate using gates such as AND, OR, and a universal gate NAND. The main disadvantage of this implementation is that we need to use different types of gates to form a single XOR gate. By using only the NAND gate, we can implement the Ex-OR gate also. This is an easier way of producing Ex-OR gate functionality.</p>
+                <div id="d1"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/xor-gate3.png"></div><br>
+                <div id="d2"><img src="https://static.javatpoint.com/tutorial/digital-electronics/images/xor-gate4.png"></div>
+                <p><h4 style="color:#ff0000">Use of Ex-OR gate</h4><br>
+                    The Ex-or gate plays an important role in constructing digital circuits that perform arithmetic operations and calculations. Especially <b>Adders</b> and <b>Half-Adders</b>, as they can provide a "carry-bit" function or as a controlled inverter, where one input passes the binary data, and the other input is supplied with a control signal.
+                    
+                    Next TopicXNOR Gate</p>
+            </body>
+</html>
